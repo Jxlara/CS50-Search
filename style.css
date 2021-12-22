@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* buttom input btns*/
+input{
+    border: solid white;
+}
+/* Index */
+
+.mainBody {
+    flex: 1;
+    display: flex;
+    margin-top: 12%;
+    flex-direction: column;
+  }
+.mainBody img{
+    object-fit: contain;
+    height: 20%;
+}
+
+.input-group-text{
+    background: white;
+    border: none;
+    margin: auto;
+    padding: auto;
+}
+.search{
+    padding-left: 1%;
+    margin:30px;
+    height: 2.1rem;
+    width: 30%;
+    border: solid black 1px;
+    border-radius: 30px;
+}
+/* image search*/ 
+.imgMainBody{
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+.imgMainBody img{
+    object-fit: contain;
+    height: 20%;
+    width: auto;
+}
+/* Advance Search */
+
+.googleAdvance {
+    font-size: 40px;
+    text-align: left;
+    padding: 20px 30px;
+    color: black ;
+}
+.googleAdvance:hover{
+    font-size: 40px;
+    text-align: left;
+    padding: 20px 30px;
+    color:gray ;
+}
+
+
+.top-bar{
+    margin: 30px;
+    padding: 5px;
+    padding-left: 1%;
+}
+.words{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.field{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 50%;
+}
+#field1, #field2, #field3, #field4{
+    border: solid 1px;
+    height: auto;
+    width: 500px;
+}
+.searchBar{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: lightblue;
+}
