@@ -22,4 +22,5 @@
 
 - Aesthetics. The CSS you write should match Google’s own aesthetics as best as possible.
 
-## LIVE DEMO https://youtu.be/TORWR56cYSk
+:computer: &nbsp; **View Course [here](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript)**
+#### LIVE DEMO https://youtu.be/TORWR56cYSk
